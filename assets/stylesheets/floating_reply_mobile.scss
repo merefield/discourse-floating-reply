@@ -1,0 +1,26 @@
+.mobile-view  {
+
+    #topic-progress {
+        height: 41px;
+    }
+
+    #new-button-location {
+        display: inline-block;
+    }
+
+    #floating-reply-button{
+        display: block;
+        transform: translate(-148px,+44px);
+        min-width: 110px;
+        height: 44px;
+    }
+
+    :not(#floating-reply-button) {
+        button.reply,
+        .timeline-footer-controls button.create,
+        .topic-footer-main-buttons button.create {
+        	display: none;
+        }
+    }
+    
+}

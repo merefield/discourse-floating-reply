@@ -1,0 +1,4 @@
+plugins:
+   floating_reply_plugin_enabled:
+      client: false
+      default: false
